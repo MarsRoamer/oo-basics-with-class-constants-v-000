@@ -8,7 +8,7 @@ class Shoe
 
   def brand=(brand)
     @barnd = brand
-    BRANDS.detect do |type| 
+    BRANDS.detect do |type|
       if type != brand
         BRANDS << brand
       end
